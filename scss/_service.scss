@@ -1,0 +1,137 @@
+@import "vars";
+
+.service {
+  margin-top: 380px;
+  &__inner {
+    padding: 0 34.33px 0 12px;
+  }
+  &__info {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    padding: 0 0 21px 365px;
+    color: $dark;
+  }
+  &__text {
+    margin: 0;
+    padding: 0 275px 58px 310px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: $grey;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-rows: 392px;
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+  &__box1 {
+    text-align: center;
+  }
+  &__list {
+    padding-bottom: 39px;
+  }
+  &__info1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: $dark;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: $grey;
+    padding-top: 16px;
+  }
+  &__list2 {
+    padding: 0 57.67px 0 80px;
+  }
+  &__info2 {
+    margin: 0;
+    padding: 39px 72.67px 16px 90px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: $dark;
+  }
+  &__text2 {
+    margin: 0;
+    text-align: center;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: $grey;
+  }
+  &__list3 {
+    padding: 0 54.67px 0 95px;
+  }
+  &__info3 {
+    margin: 0;
+    padding: 39px 13.67px 16px 54px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: $dark;
+  }
+  &__text3 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: $grey;
+  }
+  &__flex {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    gap: 28px;
+    padding: 0 0 0 393px;
+  }
+  &__link {
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 26px 48px 26px 38px;
+    background: #0075ff;
+    border-radius: 14px;
+  }
+  &__mininfo {
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: $dark;
+    background: #ffffff;
+    border: 1px solid #eff0f6;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    border-radius: 14px;
+    padding: 25px 44px 26px 39px;
+  }
+}
